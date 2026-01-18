@@ -164,4 +164,7 @@ if (navigator.serviceWorker) {
 // messages... #305
 keepAlive()
 
+globalThis.dataLayer = [ ['js', new Date()], ['config', 'G-WFCDFZE27M'] ]
+globalThis.gtag = (...args) => dataLayer.push(args)
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WFCDFZE27M"></script>
